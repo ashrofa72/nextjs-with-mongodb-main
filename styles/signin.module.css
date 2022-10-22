@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Lalezar&family=Mochiy+Pop+One&family=Poppins:wght@300&display=swap');
+.pagecontainer{
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.formcontainer {
+    background-color: rgb(243, 238, 238);
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0px;
+}
+
+.form {
+    
+    padding: 3rem 5rem 5rem 5rem;
+    background-color: #F7799B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.formtitle{
+    font-family: 'Mochiy Pop One';
+    color: white;
+}
+
+.form input {
+    text-align: center;
+    height: 40px;
+    width: 250px;
+
+}

@@ -1,0 +1,10 @@
+.schoollist li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    gap: 5px;
+    flex-direction: column;
+    border-bottom: 2px solid blue;
+}

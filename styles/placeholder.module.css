@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Lalezar&family=Mochiy+Pop+One&family=Poppins:wght@300&display=swap');
+
+.select{
+    color:brown;
+    font-size: large;
+    text-align: center;
+    height: 40px;
+    
+}
+.selectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.postcontainer{
+    color: #000;
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

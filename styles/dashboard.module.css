@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Lalezar&family=Mochiy+Pop+One&family=Poppins:wght@300&display=swap');
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+
+}
+
+.leftmenu {
+    border-right: 3px solid rgb(236, 103, 2);
+    background: #135B92;
+    border-top-left-radius: 10px;
+    
+}
+
+.leftmenu li {
+
+    font-size: larger;
+    list-style: none;
+    text-decoration: underline;
+    color: #fff;
+    padding-left: 23px;
+
+
+}
+
+.leftmenu li:hover {
+    cursor: pointer;
+}
+
+.leftmenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    margin-top: 70px;
+    width: 80%;
+    position: relative;
+    
+    
+
+}
+
+.leftmenu ul img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 3px;
+}
+.leftmenu ul .imgorder {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 94px;
+    left: 3px;
+}
+.leftmenu ul .imgarticle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 178px;
+    left: 10px;
+}
+.leftmenu ul .imglist {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    
+}
+.leftmenu ul .imgdonate {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 335px;
+    left: 10px;
+    background: transparent;
+    
+}
+
+.contentpage {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 15px;
+    background-color: #D6F0FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Mochiy Pop One';
+    border-top-right-radius: 10px;
+}
+
+.contentpage img {
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+
+}
