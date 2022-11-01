@@ -7,7 +7,7 @@ export default function Home({ isConnected }) {
     <div className="container">
       
       <Head>
-        <title>Create Next App</title>
+        <title>Ashraf Digital Center</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

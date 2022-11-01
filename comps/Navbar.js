@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>Ashraf Electronics</h1>
+        <h1>Ashraf Digital Center</h1>
       </div>
       <div>
       <Link href="/"><a>Home</a></Link>
@@ -14,6 +14,7 @@ const Navbar = () => {
       <Link href="/goldprice"><a>Gold</a></Link>
       <Link href="/dashboard"><a>Dashboard</a></Link>
       <Link href="/placeholder"><a>PlaceHolder</a></Link>
+      <Link href="/tabletdata"><a>Tablet</a></Link>
       </div>
     </nav>
 );

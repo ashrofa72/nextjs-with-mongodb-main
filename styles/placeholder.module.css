@@ -5,12 +5,16 @@
     font-size: large;
     text-align: center;
     height: 40px;
+    width: 400px;
+    
+    font-weight: bold;
     
 }
 .selectcontainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 .container{
