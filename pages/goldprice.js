@@ -1,4 +1,4 @@
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const res = await fetch('https://data-asg.goldprice.org/dbXRates/EGP');
     const res2 = await fetch('https://data-asg.goldprice.org/dbXRates/USD');
     const data = await res.json();
